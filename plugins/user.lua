@@ -9,4 +9,12 @@ return {
   --     require("lsp_signature").setup()
   --   end,
   -- },
+  {
+    "navarasu/onedark.nvim",
+    name = "onedark",
+    opts = {
+      style = 'darker'
+    },
+  }
+
 }
